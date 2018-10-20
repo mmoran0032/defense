@@ -1,8 +1,7 @@
-*.pptx
 .ipynb_checkpoints
 
-current_grid.png
-defense_grid_code.txt
+grid.png
+grid_code.txt
 
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 

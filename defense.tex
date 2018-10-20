@@ -60,13 +60,40 @@
 
     \begin{figure}
         \includegraphics[width=0.95\textwidth]%
-            {figures/cno_nena_mgal.pdf}
+            {figures/cno_nena_mgal.png}
     \end{figure}
+
 \end{frame}
 
 \begin{frame}[fragile]{Radiative Capture}
 
-    Placeholder
+    Reactions of the form \react{A}{a}{\gamma}{B}
+
+    Commonly studied by detecting the emitted $\gamma$
+    \begin{itemize}
+        \item Can have large background count rate, making detection
+            difficult or impossible
+        \item Limited by detector efficiency
+    \end{itemize}
+
+    Focus primarily on resonances
+
+\end{frame}
+
+\begin{frame}[fragile]{Inverse Kinematics}
+
+    We can instead detect the heavy recoil particle using a
+    high-efficiency detector to study complete cross sections
+    \begin{itemize}
+        \item Perform the reaction in inverse kinematics
+            \react{a}{A}{B}{\gamma}
+        \item Heavy projectile impinges on light target, heavy recoil
+            escapes the target
+        \item Requires a stable H or He (commonly) target
+    \end{itemize}
+
+    Gain in efficiency of detector offset by complexities of
+    distinguishing the few recoil particles from the high-intensity beam
 
 \end{frame}
 
@@ -138,6 +165,17 @@
 
     Elements within St.\ George are tuned for the $B\rho$ and $E\rho$ of
     the recoil particle
+    \[
+        \begin{split}
+            B\rho = \frac{\sqrt{2mT}}{q}
+        \end{split}
+        \quad\quad
+        \begin{split}
+            E\rho = \frac{2T}{q}
+        \end{split}
+    \]
+
+    Design limits: $0.1 \leq B\rho \leq 0.45$~Tm and $E\rho \leq 5.7$~MV
 
 \end{frame}
 
@@ -266,7 +304,7 @@
 
 \appendix
 
-\begin{frame}[fragile]{Backup slides}
+\begin{frame}[fragile]{Appendix}
 
     Placeholder
 

@@ -12,6 +12,14 @@
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
+\newcommand{\nuc}[2]{${}^{#1}\textrm{#2}$}
+\newcommand{\mnuc}[2]{{}^{#1}\textrm{#2}}
+\newcommand{\react}[4]{$#1(#2,#3)#4$}
+\newcommand{\mreact}[4]{#1(#2,#3)#4}
+\newcommand{\alpa}{\react{\mnuc{27}{Al}}{\textrm{p}}{\alpha}{\mnuc{24}{Mg}}}
+\newcommand{\nag}{\react{\mnuc{14}{N}}{\alpha}{\gamma}{\mnuc{18}{F}}}
+\newcommand{\squared}{${}^{2}$}
+
 \title{
     Verification of Recoil Separator Properties Through Reaction Measurements
 }
@@ -174,7 +182,81 @@
 
 \end{frame}
 
+\begin{frame}[fragile]{The \alpa{} Reaction}
+
+    Placeholder
+
+\end{frame}
+
+\begin{frame}[fragile]{Alternate Tune}
+
+    Since the last segment of St.\ George has not been fully
+    commissioned (full angular acceptance not yet verified), we can use
+    the focal plane after the Wien filter to perform cross section
+    measurements
+
+    For $({\rm p},\alpha)$ reactions, the beam suppression is sufficient
+    to reject the high-intensity incident beam
+
+    The beam spot at this focal plane needs to be adjusted to direct the
+    reaction products to the detector
+
+\end{frame}
+
+\begin{frame}[fragile]{Alternate Tune}
+
+    Show COSY raytrace
+
+\end{frame}
+
+\begin{frame}[fragile]{Angular Acceptance Measurement}
+
+    Since \alpa{} emits the $\alpha$ particles within a large cone, we
+    can measure the acceptance of those that pass into St.\ George
+    \begin{itemize}
+        \item Target cup restricts us to $\approx 40$~mrad
+    \end{itemize}
+
+    Tuning the beginning of the separator to transport the particles to
+    the Wien filter focal plane is an alternative to a full angular
+    acceptance measurement
+
+    Ability to fine-tune and have confidence in the properties of the
+    separator are required
+
+\end{frame}
+
+\begin{frame}[fragile]{Acceptance Measurements}
+
+    Show acceptance bands plot
+
+\end{frame}
+
+\begin{frame}[fragile]{Acceptance Measurements}
+
+    On-resonance, we are consistent with a $\Delta\theta = 40$~mrad
+    acceptance
+
+    Off-resonance, we have larger uncertainty and are limited by a lack
+    of diagnostics
+
+    Systematic trends around each resonance can be due to non-uniform
+    angular acceptance (seen during preliminary tests)
+
+\end{frame}
+
 \section{Future Directions}
+
+\begin{frame}[fragile]{Future Directions}
+
+    St.\ George can be used to study an additional class of reactions
+
+    Solid and gas targets may be used for experiments
+
+    Separation properties and beam currents are suitable for low-energy
+    and off-resonance cross section measurements
+
+\end{frame}
 
 \begin{frame}[fragile]{Lessons Learned}
 
@@ -182,11 +264,7 @@
 
 \end{frame}
 
-\begin{frame}[fragile]{Future Directions}
 
-    Placeholder
-
-\end{frame}
 
 \appendix
 

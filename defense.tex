@@ -99,6 +99,24 @@
 
 \section{Recoil Separation}
 
+\begin{frame}[fragile]{Magnetic and Electric Rigidities}
+
+    Elements within St.\ George are tuned for the $B\rho$ and $E\rho$ of
+    the recoil particle
+    \[
+        \begin{split}
+            B\rho = \frac{\sqrt{2mT}}{q}
+        \end{split}
+        \quad\quad
+        \begin{split}
+            E\rho = \frac{2T}{q}
+        \end{split}
+    \]
+
+    Design limits: $0.1 \leq B\rho \leq 0.45$~Tm and $E\rho \leq 5.7$~MV
+
+\end{frame}
+
 \begin{frame}[fragile]{Particle Selection}
 
     We can uniquely identify particles by their mass, charge and energy:
@@ -159,24 +177,6 @@
     \]
 
     These bounds must hold for all possible $E\rho$ and $B\rho$
-
-\end{frame}
-
-\begin{frame}[fragile]{Magnetic and Electric Rigidities}
-
-    Elements within St.\ George are tuned for the $B\rho$ and $E\rho$ of
-    the recoil particle
-    \[
-        \begin{split}
-            B\rho = \frac{\sqrt{2mT}}{q}
-        \end{split}
-        \quad\quad
-        \begin{split}
-            E\rho = \frac{2T}{q}
-        \end{split}
-    \]
-
-    Design limits: $0.1 \leq B\rho \leq 0.45$~Tm and $E\rho \leq 5.7$~MV
 
 \end{frame}
 
@@ -301,13 +301,34 @@
 
 \begin{frame}[fragile]{Justification for Reaction Measurements}
 
-    Placeholder
+    Joint acceptance measurements are costly to cover all of the
+    possibilities
+
+    Reactions can be used to ``bootstrap'' the process
+    \begin{itemize}
+        \item Reactions have a known cross section, angular and energy
+            spread, etc.
+        \item If all of the expected produced recoils reach the
+            detector, the separator is performing optimally
+    \end{itemize}
 
 \end{frame}
 
 \begin{frame}[fragile]{The \alpa{} Reaction}
 
-    Placeholder
+    \begin{figure}
+        \includegraphics[width=0.75\textwidth]%
+            {figures/reaction_energy_diagram.png}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}[fragile]{The \alpa{} Reaction}
+
+    \begin{figure}
+        \includegraphics[width=0.75\textwidth]%
+            {figures/zero_degree_pa0.png}
+    \end{figure}
 
 \end{frame}
 
@@ -328,7 +349,14 @@
 
 \begin{frame}[fragile]{Alternate Tune}
 
-    Show COSY raytrace
+    \begin{figure}<1>
+        \includegraphics[width=0.75\textwidth]%
+            {figures/optimal_tune_x.png}
+    \end{figure}
+    \begin{figure}<2>
+        \includegraphics[width=0.75\textwidth]%
+            {figures/optimal_tune_y.png}
+    \end{figure}
 
 \end{frame}
 
@@ -351,7 +379,10 @@
 
 \begin{frame}[fragile]{Acceptance Measurements}
 
-    Show acceptance bands plot
+    \begin{figure}
+        \includegraphics[width=0.75\textwidth]%
+            {figures/acceptance_uncertainty.png}
+    \end{figure}
 
 \end{frame}
 

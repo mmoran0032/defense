@@ -1,6 +1,6 @@
 \documentclass[10pt]{beamer}
 
-\usetheme[progressbar=frametitle]{metropolis}
+\usetheme[progressbar=frametitle, titleformat=smallcaps]{metropolis}
 \usepackage{appendixnumberbeamer}
 
 \usepackage{booktabs}
@@ -34,10 +34,10 @@
 
 \maketitle
 
-\begin{frame}[fragile]{Table of contents}
-  \setbeamertemplate{section in toc}[sections numbered]
-  \tableofcontents[hideallsubsections]
-\end{frame}
+% \begin{frame}[fragile]{Table of Contents}
+%   \setbeamertemplate{section in toc}[sections numbered]
+%   \tableofcontents[hideallsubsections]
+% \end{frame}
 
 \section{Introduction}
 
@@ -352,13 +352,11 @@
 
 \begin{frame}[fragile]{Alternate Tune}
 
-    \begin{figure}<1>
+    \begin{figure}
         \includegraphics[width=0.75\textwidth]%
-            {figures/optimal_tune_x.png}
-    \end{figure}
-    \begin{figure}<2>
+            {figures/optimal_tune_x.png}<1>
         \includegraphics[width=0.75\textwidth]%
-            {figures/optimal_tune_y.png}
+            {figures/optimal_tune_y.png}<2>
     \end{figure}
 
 \end{frame}

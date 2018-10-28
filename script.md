@@ -232,4 +232,105 @@ Justification for Reaction Measurements
 
 The ALPA Reaction
 
-    Our first reaction measurement is the ALPA reaction, performed
+    Our first reaction measurement is the ALPA reaction, performed in
+    inverse kinematics. As an initial test, we focused on two low-lying
+    resonances, both of which are 2+ states with an isotropic angular
+    distribution. I'm not showing all of the states here, just the two
+    that we are interested in. The angular distribution is really
+    important, since we are only measuring the reaction at zero degrees.
+    If we look at the differential cross section around these points...
+
+The ALPA Reaction
+
+    ...at zero degrees, we can see additional structure within the cross
+    section that we will be able to probe. Our two resonances are
+    relatively isolated, so with the energy resolution of our
+    accelerator, we'll be able to measure this underlying structure.
+    Having a known cross section is important, since we will need to use
+    it to determine the expected number of particles.
+
+    While this cross section is for zero degrees, due to our angular
+    acceptance of 40 mrad, we can assume that the structure is the same
+    for that small angular window.
+
+Alternate Tune
+
+    At the time we ran this experiment, the entirety of St. George had
+    not been commissioned yet. From our previous work, we had a really
+    good understanding of the energy acceptance properties of the
+    separator, but our angular acceptance had only been shown to be 40
+    mrad up to the focal plane following the Wien filter. At this
+    location, the canonical tune of St. George is a tall, narrow spot
+    for the transported recoils, which means that some of the produces
+    alpha particles would fall off of the detector.
+
+    Instead, we developed an alternate tune...
+
+Alternate Tune
+
+    ...that would transport the particles within a smaller energy
+    acceptance window of 4% and the full 40 mrad angular acceptance to
+    this new detector plane, where the beam spot would fall on the
+    active surface of the Si detector in both the horizontal...
+
+Alternate Tune
+
+    ...and vertical plane.
+
+Angular Acceptance Measurement
+
+    As already mentioned, the alpha particles are emitted in all
+    directions, so we rely on the physical target chamber to restrict
+    what particles enter St. George. The Faraday cup at the entrance to
+    the separator will restrict our angular acceptance. While this
+    measurement will result in an angular acceptance for a different
+    tune than the canonical St. George recoil transport tune, the
+    techniques and procedures are 100% applicable to the full case.
+
+Acceptance Measurements
+
+    Our actual experiment explored ten total energy points within the
+    cross section, focusing on those two resonance areas. Our
+    on-resonance energies here and here show, understandably, the
+    smallest uncertainty and are consistent with the tuned 40 mrad
+    acceptance, which is great. From our analysis, we also have the
+    benefit of attributing these uncertainty bands, here the 67% and 95%
+    bands, to each of the inputs that are under our "control" to direct
+    the actions that should be taken at different points in the cross
+    section during future directions. For instance, these two points
+    just below the resonance energy show the largest uncertainty, and
+    almost all of that uncertainty can be attributed to the energy
+    uncertainty of our incident beam.
+
+    The last thing to note is that there is a systematic shift at lower
+    energies to higher acceptances. During previous studies, it was
+    common to have a much easier time to reduce the vertical acceptance
+    to 40 mrad or above, but much more difficult to do the same in the
+    horizontal direction. Since we are assuming a uniform angular
+    acceptance, we can't adequately separate out the two directions
+    which may lead to this shift. The fact that our on resonance points
+    agree with a symetric 40 mrad acceptance in comforting, since the
+    transport tune was checked beforehand with a direct alpha beam near
+    these points.
+
+Future Directions
+
+    This experiment is not the end of the line for the commissioning of
+    St. George, which I expect to continue in various capacities and
+    periodically rechecked over the coming years.
+
+Experimental Outcome
+
+    We have shown that St. George can accept recoils produced within an
+    energy window of at least 7.5%, and within a combined angular spread
+    of 40 mrad with an energy spread of 3%. With the note that this last
+    acceptance measurement was for a different tune, St. George has been
+    shown to be capable of measuring 6 of the 8 test reactions outlined
+    within the 2008 design paper by Couder et al. Additionally, even
+    though St. George was not directly designed to study (p,a)
+    reactions, we've demonstrated that the acceptance properties and the
+    beam rejection properties are sufficient to study this additional
+    class of reactions. There is already interest within the NSL and
+    collaborations for this capability, and using St. George for these
+    reactions will work both for novel studies as well as supporting
+    experimental work for other experimental areas within the NSL.

@@ -300,7 +300,9 @@ Acceptance Measurements
     section during future directions. For instance, these two points
     just below the resonance energy show the largest uncertainty, and
     almost all of that uncertainty can be attributed to the energy
-    uncertainty of our incident beam.
+    uncertainty of our incident beam. Our on-resonance points are
+    dominated by the current uncertainty, which is partially limited by
+    our experimental setup.
 
     The last thing to note is that there is a systematic shift at lower
     energies to higher acceptances. During previous studies, it was
@@ -334,3 +336,21 @@ Experimental Outcome
     collaborations for this capability, and using St. George for these
     reactions will work both for novel studies as well as supporting
     experimental work for other experimental areas within the NSL.
+
+The Future of St. George
+
+    From these results, the future work to be performed with St. George
+    is extremely varied and exciting. Following the final verification
+    of the acceptance properties through the remainder of St. George
+    and to the full design extent, or concurrent with that work, the
+    first of the planned experiments for St. George can be completed,
+    such at 14N(a,g) and 3He(a,g). These reactions will follow the
+    installation and commissioning of the Hippo supersonic jet gas
+    target. In the interim, however, St. George can be used for
+    additional (p,a) measurements and potentially other solid target
+    measurements that are important for low energy nuclear astrophysics
+    across numerous domains. The work presented here is an essential
+    starting point for a long and prestigious nuclear astrophysics
+    campaign for St. George and the NSL.
+
+    Thank you.

@@ -3,6 +3,9 @@ Script
 
 Defense script, with slide transitions and action call outs included.
 
+*NOTE:* below is prior to discussion with Manoel, so does not reflect
+the actual presentation at this point and will be updated shortly.
+
 
 Title Slide
 -----------

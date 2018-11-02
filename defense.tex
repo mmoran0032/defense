@@ -41,42 +41,56 @@
 
 \section{Introduction}
 
-\begin{frame}[fragile]{Prominent Reaction Processes}
+\begin{frame}[fragile]{Capture Reactions}
 
-    Stellar energy production depends on the type of star and the
-    current lifecycle stage
+    Stellar energy production depends on the interior conditions of the
+    star, such as the isotopic enrichment and temperature/pressure
 
-    $pp$-Chains and CNO cycles dominate for stars similar to our sun
+    Hydrogen burning: $({\rm p},\gamma)$ reactions
     \begin{itemize}
-        \item Include radiative capture reactions: $({\rm p},\gamma)$
-            and $(\alpha,\gamma)$
+        \item low mass energy production through $pp$-chains
+        \item massive stars core and shell burning through CNO,
+            NeNa, and MgAl cycles
     \end{itemize}
 
-    Can be grouped under ``Hydrogen burning'' processes
+    Helium burning: $(\alpha,\gamma)$ reactions
+    \begin{itemize}
+        \item \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
+            determines C/O ratio
+        \item AGB stars during He burning stages are key source of
+            neutrons for $s$-process (
+                \react{\mnuc{13}{C}}{\alpha}{\rm n}{\mnuc{16}{O}},
+                \react{\mnuc{22}{Ne}}{\alpha}{\rm n}{\mnuc{25}{Mg}}
+                )
+        \item breakout reactions from cyclic H burning (e.g.
+            \react{\mnuc{14}{N}}{\alpha}{\gamma}{\mnuc{18}{F}})
+    \end{itemize}
 
 \end{frame}
 
-\begin{frame}[fragile]{Hydrogen Burning}
+% \begin{frame}[fragile]{Hydrogen Burning}
 
-    \begin{figure}
-        \includegraphics[width=0.95\textwidth]%
-            {figures/cno_nena_mgal.png}
-    \end{figure}
+%     \begin{figure}
+%         \includegraphics[width=0.95\textwidth]%
+%             {figures/cno_nena_mgal.png}
+%     \end{figure}
 
-\end{frame}
+% \end{frame}
 
 \begin{frame}[fragile]{Radiative Capture}
 
-    Reactions of the form \react{A}{a}{\gamma}{B}
-
     Commonly studied by detecting the emitted $\gamma$
+
+    Detection is difficult due to:
     \begin{itemize}
-        \item Can have large background count rate, making detection
-            difficult or impossible
-        \item Limited by detector efficiency
+        \item large background count rates (target impurities,
+            background radiation)
+        \item limited by HPGe detector efficiency
+        \item potentially low count rates
     \end{itemize}
 
-    Focus primarily on resonances
+    Studied focused primarily on resonances to reduce the effect of
+    these problems
 
 \end{frame}
 
@@ -106,6 +120,8 @@
             {figures/stg.png}
     \end{figure}
 
+    \tiny{Couder \textit{et al.}, 2008}  % check if this looks OK
+
 \end{frame}
 
 \begin{frame}[fragile]{Magnetic and Electric Rigidities}
@@ -131,19 +147,22 @@
     We can uniquely identify particles by their mass, charge and energy:
 
     \begin{alertblock}{Magnetic Selection}
-        \[
-            \frac{m}{q} = \frac{B\rho}{2}\left(\frac{T}{q}\right)^{-1}
-        \]
+        % \[
+        %     \frac{m}{q} = \frac{B\rho}{2}\left(\frac{T}{q}\right)^{-1}
+        % \]
+        selects a single momentum: $p = B\rho q$
     \end{alertblock}
     \begin{alertblock}{Electric Selection}
-        \[
-            \frac{T}{q} = \frac{E\rho}{2}
-        \]
+        % \[
+        %     \frac{T}{q} = \frac{E\rho}{2}
+        % \]
+        selects a single energy: $T = E\rho(q/2)$
     \end{alertblock}
     \begin{alertblock}{Wien Filter Selection}
-        \[
-            \frac{m}{q} = \frac{2}{v^2} \frac{T}{q}
-        \]
+        % \[
+        %     \frac{m}{q} = \frac{2}{v^2} \frac{T}{q}
+        % \]
+        selects a single velocity: $v = E/B$
     \end{alertblock}
 
     % $B\rho$ and $E\rho$ are the magnetic and electric rigidities of the
@@ -168,11 +187,11 @@
     Recoils can only be transported within defined parameter bounds
     \[
         \begin{split}
-            \Delta E/E = 7.5\,\%
+            \Delta E/E = \pm7.5\,\%
         \end{split}
         \quad\quad
         \begin{split}
-            \Delta\theta = 40\,\text{mrad}
+            \Delta\theta = \pm40\,\text{mrad}
         \end{split}
     \]
 
@@ -202,6 +221,9 @@
 
 \begin{frame}[fragile]{Types of Commissioning}
 
+    The goal is for 100\,\% of the produced recoils to make it to the
+    final detector plane
+
     Can divide commissioning between three possible cases:
 
     \begin{alertblock}{Energy}<1->%<1-| alert@4> for highlighting
@@ -214,9 +236,6 @@
     \begin{alertblock}{Joint}<3->
         adjust both at the same time
     \end{alertblock}
-
-    The goal is to get 100\,\% of the recoil particles to the final
-    detector plane
 
 \end{frame}
 
@@ -234,25 +253,29 @@
 
 % \end{frame}
 
-% \begin{frame}[fragile]{Energy Acceptance}
+\begin{frame}[fragile]{Energy Acceptance}
 
-%     For a particle beam with a given $B\rho$ and $E\rho$:
+    For a particle beam with a given $B\rho$ and $E\rho$:
 
-%     \begin{itemize}
-%         \item<1-| alert@1> Tune the test beam to a given energy, and
-%             tune St.\ George for that energy
-%         \item<2-| alert@2> Verify 100\,\% transmission, adjust the tune
-%             if necessary
-%         \item<3-| alert@3> Adjust the beam energy within the energy
-%             acceptance bounds and measure transmission
-%         \item<4-| alert@4> Adjust the tune if necessary to have 100\,\%
-%             transmission for all possible energy changes within the
-%             acceptance bounds
-%     \end{itemize}
+    \begin{itemize}
+        \item Tune the test beam to a given energy, and
+            tune St.\ George for that energy
+        \item Verify 100\,\% transmission, adjust the tune
+            if necessary
+        \item Adjust the beam energy within the energy
+            acceptance bounds and measure transmission
+        \item Adjust the tune if necessary to have 100\,\%
+            transmission for all possible energy changes within the
+            acceptance bounds
+    \end{itemize}
 
-% \end{frame}
+\end{frame}
 
 \begin{frame}[fragile]{Energy Acceptance}
+
+    Energy acceptance completed for a subset of $B\rho$ and $E\rho$
+    test particles (100\,\% transmission found through current
+    measurements)
 
     \begin{figure}
         \includegraphics[width=0.75\textwidth]%
@@ -328,6 +351,9 @@
 
 \begin{frame}[fragile]{The \alpa{} Reaction}
 
+    Cross section is well-known, reducing it as an uncertainty in the
+    measurements
+
     \begin{figure}
         \includegraphics[width=0.75\textwidth]%
             {figures/zero_degree_pa0.png}
@@ -342,8 +368,8 @@
     the focal plane after the Wien filter to perform cross section
     measurements
 
-    For $({\rm p},\alpha)$ reactions, the beam suppression is sufficient
-    to reject the high-intensity incident beam
+    For $({\rm p},\alpha)$ reactions, the expected beam suppression is
+    sufficient to reject the high-intensity incident beam
 
     The beam spot at this focal plane needs to be adjusted to direct the
     reaction products to the detector
@@ -351,6 +377,9 @@
 \end{frame}
 
 \begin{frame}[fragile]{Alternate Tune}
+
+    Determined expected field strengths using \verb+COSY+ and verified
+    with direct particle transport before the experiment
 
     \begin{figure}
         \includegraphics[width=0.75\textwidth]%
@@ -363,10 +392,11 @@
 
 \begin{frame}[fragile]{Angular Acceptance Measurement}
 
-    Since \alpa{} emits the $\alpha$ particles within a large cone, we
-    can measure the acceptance of those that pass into St.\ George
+    The reaction \alpa{} emits the $\alpha$ particles within an
+    isotropic angular distribution
     \begin{itemize}
-        \item Target cup restricts us to $\approx 40$~mrad
+        \item target cup restricts us to $\approx 40$~mrad acceptance,
+        \item we will attempt to transport all $\alpha$s to detector
     \end{itemize}
 
     Tuning the beginning of the separator to transport the particles to
@@ -387,6 +417,23 @@
 
 \end{frame}
 
+\begin{frame}[fragile]{Acceptance Uncertainty}
+
+    We can attribute the uncertainty at each measurement to the
+    underlying variables within our control: energy, current, time, and
+    target thickness
+    \begin{itemize}
+        \item On-resonance: dominated by current uncertainty
+        \item Below resonance: dominated by energy uncertainty
+        \item Attribution through a hybrid Monte Carlo/Bayesian
+            approach
+    \end{itemize}
+
+    Final irreducible uncertainty comes from the underlying cross
+    section, particle count rate, potential non-uniformity, etc.
+
+\end{frame}
+
 % \begin{frame}[fragile]{Acceptance Measurements}
 
 %     On-resonance, we are consistent with a $\Delta\theta = 40$~mrad
@@ -404,12 +451,13 @@
 
 \begin{frame}[fragile]{Experimental Outcome}
 
-    Acceptances:
+    St.\ George has been shown to have the following acceptances:
     \begin{itemize}
         \item $\Delta E/E \geq 7.5$\,\%
-        \item $\Delta\theta = 40$~mrad (to WF)
         \item $\Delta E/E = 3$\,\% and $\Delta\theta = 40$~mrad (to WF)
     \end{itemize}
+
+    Preliminary beam reduction measurements on the order of $10^{12}$
 
     St.\ George can be used to study an additional class of reactions
 
@@ -418,19 +466,23 @@
 
 \end{frame}
 
-\begin{frame}[fragile]{The Future of St. George}
+\begin{frame}[fragile]{The Future of St.\ George}
 
-    Final commissioning work for the remainder of St.\ George
+    St.\ George can be used for a restricted subset of experiments
 
-    New supersonic jet gas target HIPPO to be commissioned
-    \begin{itemize}
-        \item Includes offset Si detector for continuous current
-            measurements
-    \end{itemize}
+    Ability to fine-tune the separator and verify its properties over a
+    range of $B\rho$ and $E\rho$ values essential for future experiments
 
-    First $(\alpha,\gamma)$ reactions performed
+    Diagnostic equipment and procedures developed to be applied to
+    future separators (SECAR)
+
+    Final parts of the St.\ George system (HIPPO supersonic jet gas
+    target, full detector system, additional diagnostics, etc) will
+    unlock the full range of experimental work
 
 \end{frame}
+
+\maketitle
 
 \appendix
 
@@ -445,8 +497,7 @@
 \begin{frame}[fragile]{95\,\% Contributions}  % build out backup slides
 
     \begin{figure}
-        \includegraphics[width=0.7\textwidth]%
-            {figures/table_95.png}
+        \includegraphics[width=0.7\textwidth]{figures/table_95.png}
     \end{figure}
 
 \end{frame}
@@ -454,8 +505,7 @@
 \begin{frame}[fragile]{Initial Test Reactions}
 
     \begin{figure}
-        \includegraphics[width=0.95\textwidth]%
-            {figures/stg_reactions.png}
+        \includegraphics[width=\textwidth]{figures/stg_reactions.png}
     \end{figure}
 
 \end{frame}

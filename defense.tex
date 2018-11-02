@@ -115,6 +115,7 @@
 
 \begin{frame}[fragile]{St.\ George}
 
+    \vspace{1.5em}
     \begin{figure}
         \includegraphics[width=0.95\textwidth]%
             {figures/stg.png}
@@ -150,13 +151,13 @@
         % \[
         %     \frac{m}{q} = \frac{B\rho}{2}\left(\frac{T}{q}\right)^{-1}
         % \]
-        selects a single momentum: $p = B\rho q$
+        selects a single momentum: $p = q \cdot B\rho$
     \end{alertblock}
     \begin{alertblock}{Electric Selection}
         % \[
         %     \frac{T}{q} = \frac{E\rho}{2}
         % \]
-        selects a single energy: $T = E\rho(q/2)$
+        selects a single energy: $T = q/2 \cdot E\rho$
     \end{alertblock}
     \begin{alertblock}{Wien Filter Selection}
         % \[
@@ -172,6 +173,7 @@
 
 \begin{frame}[fragile]{Particle Selection}
 
+    \vspace{1em}
     Any two of the three possibilities may be combined to uniquely
     identify a particle
 
@@ -226,14 +228,14 @@
 
     Can divide commissioning between three possible cases:
 
-    \begin{alertblock}{Energy}<1->%<1-| alert@4> for highlighting
+    \begin{alertblock}{Energy}<2->%<1-| alert@4> for highlighting
         change the particle energy without interfering with the other
         quantities
     \end{alertblock}
-    \begin{alertblock}{Angular}<2->
+    \begin{alertblock}{Angular}<3->
         change the deflection of the particle at the target location
     \end{alertblock}
-    \begin{alertblock}{Joint}<3->
+    \begin{alertblock}{Joint}<4->
         adjust both at the same time
     \end{alertblock}
 
@@ -273,6 +275,7 @@
 
 \begin{frame}[fragile]{Energy Acceptance}
 
+    \vspace{0.5em}
     Energy acceptance completed for a subset of $B\rho$ and $E\rho$
     test particles (100\,\% transmission found through current
     measurements)
@@ -281,6 +284,8 @@
         \includegraphics[width=0.75\textwidth]%
             {figures/rigidity_phase_space.png}
     \end{figure}
+    
+    \tiny{Adapted from Meisel, \textbf{Moran}, \textit{et al.}, 2017}
 
 \end{frame}
 
@@ -342,8 +347,9 @@
 
 \begin{frame}[fragile]{The \alpa{} Reaction}
 
+    \vspace{1.5em}
     \begin{figure}
-        \includegraphics[width=0.75\textwidth]%
+        \includegraphics[width=0.65\textwidth]%
             {figures/reaction_energy_diagram.png}
     \end{figure}
 
@@ -351,6 +357,7 @@
 
 \begin{frame}[fragile]{The \alpa{} Reaction}
 
+    \vspace{0.5em}
     Cross section is well-known, reducing it as an uncertainty in the
     measurements
 
@@ -358,6 +365,8 @@
         \includegraphics[width=0.75\textwidth]%
             {figures/zero_degree_pa0.png}
     \end{figure}
+    
+    \tiny{Courtesy of R.\ J.\ deBoer, 2017}
 
 \end{frame}
 
@@ -378,6 +387,7 @@
 
 \begin{frame}[fragile]{Alternate Tune}
 
+    \vspace{1.5em}
     Determined expected field strengths using \verb+COSY+ and verified
     with direct particle transport before the experiment
 
@@ -395,8 +405,8 @@
     The reaction \alpa{} emits the $\alpha$ particles within an
     isotropic angular distribution
     \begin{itemize}
-        \item target cup restricts us to $\approx 40$~mrad acceptance,
-        \item we will attempt to transport all $\alpha$s to detector
+        \item target cup restricts us to $\approx 40$~mrad acceptance
+        \item we will attempt to transport all $\alpha$ particles to the detector
     \end{itemize}
 
     Tuning the beginning of the separator to transport the particles to
@@ -410,6 +420,7 @@
 
 \begin{frame}[fragile]{Acceptance Measurements}
 
+    \vspace{1.5em}
     \begin{figure}
         \includegraphics[width=0.75\textwidth]%
             {figures/acceptance_uncertainty.png}
@@ -468,18 +479,17 @@
 
 \begin{frame}[fragile]{The Future of St.\ George}
 
-    St.\ George can be used for a restricted subset of experiments
-
-    Ability to fine-tune the separator and verify its properties over a
+    \begin{itemize}
+        \item St.\ George can be used for a restricted subset of experiments
+        \item Ability to fine-tune the separator and verify its properties over a
     range of $B\rho$ and $E\rho$ values essential for future experiments
-
-    Diagnostic equipment and procedures developed to be applied to
+        \item Diagnostic equipment and procedures developed to be applied to
     future separators (SECAR)
-
-    Final parts of the St.\ George system (HIPPO supersonic jet gas
+        \item Final parts of the St.\ George system (HIPPO supersonic jet gas
     target, full detector system, additional diagnostics, etc) will
     unlock the full range of experimental work
-
+    \end{itemize}
+    
 \end{frame}
 
 \maketitle

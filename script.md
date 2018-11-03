@@ -76,16 +76,10 @@ our case a hydrogen or helium gas target. The produced heavy recoil
 leave the target and can be detected by a high-efficiency particle
 detector, such as a Silicon strip detector.
 
-Of course, nothing comes for free. Since we have a high intensity beam
-that will also pass through the target, we need a way to distinguish
-those incredibly few recoil particles from the beam signal at our
-detector, to say nothing of avoiding the damage to the detector itself.
-Especially in cases where we may be producing 1 recoil particle for as
-many as 10^15 beam particles, there would be no way to see a signal from
-the recoils.
-
-We need a way to stop the incident beam from reaching the detector, and
-for that...
+Our incident beam will also pass through our target. We need to stop
+this beam from reaching out detector, both because the high count rate
+would swamp our signal and it could destroy the detector itself. Since
+we also can't interfere with the produced recoils...
 
 ## Recoil Separation
 

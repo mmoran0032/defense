@@ -49,19 +49,19 @@ Many of these reactions are...
 
 ...radiative capture reactions, such as (p,g) and (a,g) reactions.
 Historically, these have been studied by detecting the produced gamma
-ray.
+ray, but thhis can be difficult for a number of reasons.
 
-This can be difficult for a number of reasons: the
-potentially large background count rates when running the experiment,
-the low efficiency of the Germanium detectors used, and, for the
-reactions and their underlying cross sections we are interested in,
-potentially low count rates for the energy in question.
+For instance, there may be large background count rates due to natural
+background or impurities in the target used, there could be an overall
+low count rate due to the cross section, and we are limited by the
+detector efficiency.
 
-The focus then has been on the resonances within the cross section,
-those points that dominate the reaction rate for stellar interiors, due
-to the higher production rate for the produced gammas. The off-resonance
-contributions, however, can play a large role, especially in cases where
-no resonance plays a dominant role.
+All of this combined means that the focus has usually been on the
+resonances in the cross section, those regions where the probability of
+the reaction taking place is greatly increased. The off-resonance
+regions can still contribute greatly to our understanding of the
+reaction, so we need a method to measure the cross section in those
+regions.
 
 ## Inverse Kinematics
 

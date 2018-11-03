@@ -26,38 +26,32 @@ and pressure of the stellar interior, the isotopic enrichment of the
 burning site, the mass of the star, and the particular stage of its
 lifecycle that the star is in.
 
-The Hydrogen burning processes have the net effect of converting four
-protons into one Helium nucleus, but the way in which this is achieved
-varies based on the stellar conditions. For low mass stars similar to
-our sun, the primary energy generation is through the pp chains of
-reactions in hydrostatic burning processes. For more massive stars, the
-isotopic enrichment allows for the use of isotopes as catalytic material
-for the burning processes, such as in the CNO, NeNa, and MgAl cycles.
-The reactions can take place during core and shell burning, depending on
-the lifecycle stage of the star.
+For stars similar to our sun, the primary energy source is Hydrogen
+burning, which has the net effect of converting four protons into one
+Helium nucleus. For our sun, the pp chains dominate this energy
+production. For more massive stars, this burning is accomplished through
+cyclic burning cycles, such as the CNO, NeNa, and Magnesium-Aluminum
+cycles, where the heavy isotopes act as catalytic material for the
+burning process.
 
-Helium burning reactions contribute in different ways to our
-understanding of nuclear astrophysics. For example, the Carbon-to-Oxygen
-ratio and the primary reaction that determines it, C12(a,g), is a
-long-standing goal of nuclear astrophysics. With massive Asymptotic
-Giant Branch, or AGB, stars, during the Helium burning stages activated
-during thermal pulses, (a,n) reactions are allowed. These reactions are
-the primary source of neutrons for the weak s-process, producing
-isotopes above the Iron mass peak. Finally, alpha capture can also
-provide a "breakout" from burning cycles such as the CNO cycle.
+Additionally, Helium burning reactions play a role in a variety of
+nuclear astrophysics processes. For example, the Carbon-to-Oxygen ratio
+and the primary reaction that determines it, C12(a,g), is a
+long-standing goal of nuclear astrophysics. The primary source of
+netrons for the s-process are these two (a,n) reactions, which are
+activated during the Helium burning stages in Asymptotic Giant Brancg
+stars. Finally, alpha capture can also provide a "breakout" from burning
+cycles such as the CNO cycle.
 
-For many of these capture reactions, we are focusing on a particular
-type of reaction, namely...
+Many of these reactions are...
 
 ## Radiative Capture
 
-...radiative capture reactions. For these reactions, the compound
-nucleus formed during the capture of the incident particle emits a
-photon. These radiative capture reactions are extremely important for
-understanding the interiors of stars, and have historically been
-measured with gamma detectors.
+...radiative capture reactions, such as (p,g) and (a,g) reactions.
+Historically, these have been studied by detecting the produced gamma
+ray.
 
-This has made their study difficult for a number of reason, such as the
+This can be difficult for a number of reasons: the
 potentially large background count rates when running the experiment,
 the low efficiency of the Germanium detectors used, and, for the
 reactions and their underlying cross sections we are interested in,

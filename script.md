@@ -78,34 +78,35 @@ detector, such as a Silicon strip detector.
 
 Our incident beam will also pass through our target. We need to stop
 this beam from reaching out detector, both because the high count rate
-would swamp our signal and it could destroy the detector itself. Since
-we also can't interfere with the produced recoils...
+would swamp our signal and it could destroy the detector itself.
+
+One technique to do this and not interfere with the produced recoils
+is...
 
 ## Recoil Separation
 
-...we can use recoil separation to filter out those incident beam
-particles and leave us with only the produced recoils that we care
-about. This technique has been developed across a range of facilities,
-and...
+...to use recoil separation, where our rarely produced recoils are
+separated out from the incident beam such that only those recoils
+reach the detector. This is accomplished by using a recoil separator,
+such as...
 
 ## St. George
 
 ...St. George, or the Strong Gradient Electromagnetic Online Recoil
-Separator for Capture Gamma-ray Experiments, is a recently designed and
-built recoil separator that has made use of the knowledge gained from
-those previous separators.
+Separator for Capture Gamma-ray Experiments.
 
 St. George is a recoil separator in the Nuclear Science Lab at the
-University of Notre Dame, designed to study radiative capture reactions
-performed in inverse kinematics in the low mass range, with the original
-design looking at a set of potential reactions with incident beam mass
-up to `A = 40`. Consisting of eleven quadrupoles, six dipoles, and a
-Wien filter, St. George can provide beam suppression up to 10^15 and
-direct those few produced recoils to the detector plane with an angular
-acceptance of 40 mrad and an energy acceptance of 7.5%. I'll explain
-these last few points shortly.
+University of Notre Dame, designed primarily to study radiative alpha
+capture reactions performed in inverse kinematics in the low mass range.
+Its design was influenced by previous recoil separators, and the entire
+system also includes target and detector systems. It consists of eleven
+quadrupoles, six dipoles, and a Wien filter to separate out the recoils
+based on their mass. St. George can provide beam suppression up to 10^15
+and direct those few produced recoils to the detector plane with an
+angular acceptance of 40 mrad and an energy acceptance of 7.5%, and I'll
+explain all of those values shortly.
 
-St. George achieves teh separation of the recoils from the beam by being
+St. George achieves the separation of the recoils from the beam by being
 set for...
 
 ## Magnetic and Electric Rigidities
@@ -158,19 +159,7 @@ must be verified experimentally across a range of rigidity values.
 
 ## Importance of Acceptances
 
-In an ideal case, every single recoil particle that is produced by the
-reaction within these bounds would make it to the detector plane which
-would eliminate the separator as a potential source of uncertainty for
-the final measurement. Since there may be very few recoils produced,
-depending on what part of the cross section is being measured, this
-ideal case becomes more important, so a lot of care and effort must be
-made to ensure that the designed acceptances for the separator hold for
-all possible recoil particles that could be produced.
-
-Since every single possible point within our rigidity parameter space
-can not conceivably be explored, select regions of interest will be
-probed, enough to the point where scaling the magnetic and electric
-fields of the separator should still retain the determined acceptances.
+**REWRITE**
 The process of actual probing the parameter space is called...
 
 ## Commissioning

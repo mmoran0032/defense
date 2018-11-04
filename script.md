@@ -1,6 +1,6 @@
 # Script
 
-Last updated: 2018-11-03
+Last updated: 2018-11-04
 
 Script for my defense to make sure that I know what I'm saying and can
 practice it. I don't want to miss anything during the presentation.
@@ -17,7 +17,7 @@ work.
 First, I'd like to discuss the situations in which we would want to use
 this technique and the benefits of using it.
 
-## Capture Reactions
+### Capture Reactions
 
 In the primary burning processes that govern the energy production in
 stars, different capture reactions are common. The actual reactions that
@@ -45,7 +45,7 @@ cycles such as the CNO cycle.
 
 Many of these reactions are...
 
-## Radiative Capture
+### Radiative Capture
 
 ...radiative capture reactions, such as (p,g) and (a,g) reactions.
 Historically, these have been studied by detecting the produced gamma
@@ -63,7 +63,7 @@ regions can still contribute greatly to our understanding of the
 reaction, so we need a method to measure the cross section in those
 regions.
 
-## Inverse Kinematics
+### Inverse Kinematics
 
 An alternate to detecting the produced gammas is to detect the heavy
 particle instead, which avoids the limitations just described by using a
@@ -90,7 +90,7 @@ separated out from the incident beam such that only those recoils
 reach the detector. This is accomplished by using a recoil separator,
 such as...
 
-## St. George
+### St. George
 
 ...St. George, or the Strong Gradient Electromagnetic Online Recoil
 Separator for Capture Gamma-ray Experiments.
@@ -109,7 +109,7 @@ explain all of those values shortly.
 St. George achieves the separation of the recoils from the beam by being
 set for...
 
-## Magnetic and Electric Rigidities
+### Magnetic and Electric Rigidities
 
 ...the magnetic and electric rigidities of the recoils in question.
 These rigidities are defined by the circular path a given particle would
@@ -120,7 +120,7 @@ is required for that particle.
 
 It makes more sense, however, to talk in terms of...
 
-## Particle Selection
+### Particle Selection
 
 ...particle selection, where we want to select out a unique particle
 that has particular properties. We have three different field types
@@ -132,9 +132,9 @@ for a single velocity.
 Since we know the properties of our recoil, we can figure out its
 rigidity and use these fields to select for the given properties.
 
-## Particle Selection
+### Particle Selection (2)
 
-*Think about converting the plot into Bp-Ep space*
+Note: *Think about converting the plot into Bp-Ep space*
 
 We can use any two of the three in combination to select for a single
 particle. This is one of the driving forces behind the design of recoil
@@ -144,7 +144,7 @@ which has the combined effect of selecting for a single mass. As our
 recoils leave the target with a single mass, we can accomplish our goal
 of selecting for our produced recoils.
 
-## Angular and Energy Acceptance
+### Angular and Energy Acceptance
 
 Our problem is that, while the particles leave the target with a single
 mass, the do not leave at a single energy and not necessarily along the
@@ -157,19 +157,36 @@ and the interaction of the produced recoils with the target.
 The range of possible values are the acceptances for the separator and
 must be verified experimentally across a range of rigidity values.
 
-## Importance of Acceptances
+### Importance of Acceptances
 
-**REWRITE**
+Having these acceptances hold for a variety of value sis important,
+because we want to eliminate St. George as a potential source of error.
+We are trying to show that any produced recoil will make it to the final
+detector system, and ideally none of the incident beam particles. Since
+those recoils may be emitted from the target with a wide range of values
+based on the kinematics of the reaction, that's also why we have our
+acceptances.
+
+Showing the acceptances hold is extremely important once we start
+performing reactions, where those extremely rare recoil particles can be
+vastly outnumbered by the incident beam. When measuring off-resonance
+regions of the cross section, this becomes even more important due to
+the lower count rates.
+
+Since every single combination of rigidities can't conceivably be
+verified independently, we'd like to verify the acceptances at enough
+different values so that we can scale St. George between those values.
+If we've done this properly, St. George will retain its acceptance
+properties at the new values.
+
 The process of actual probing the parameter space is called...
 
 ## Commissioning
 
-...commissioning the separator. In commisssioning, the characteristics
-of the separator are explored and determined through a variety of
-methods to ensure that the separator will work as it was designed to do
-under experimental conditions.
+...commissioning the separator, where we verify that the separator will
+work as it was designed to do under experimental conditions.
 
-## Types of Commissioning
+### Types of Commissioning
 
 Our goal for commissioning is to transport 100% of the particles to the
 final detector plane. For an experiment, these particles will be the

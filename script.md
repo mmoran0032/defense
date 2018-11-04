@@ -210,7 +210,7 @@ acceptance is, and...
 This last case is what will happen in real experiments and what we are
 aiming for, but the goal is the same for all three case.
 
-## Energy Acceptance
+### Energy Acceptance
 
 Our group first attempted to measure the energy acceptance through the
 entirety of St. George. To determine this acceptance, St. George was
@@ -224,7 +224,7 @@ energy.
 This was an iterative process, as if the tune did not transmit the
 entire beam, the tune for St. George would need to be adjusted.
 
-## Energy Acceptance
+### Energy Acceptance (2)
 
 For eight different test beams with eight different rigidities, we
 showed that St. George would accept an energy deviation up to 8%, which
@@ -239,9 +239,9 @@ fact, this scaling was the first step when moving from one point to the
 next which forced our baseline tune to be similar across a range of
 values.
 
-This is good, but we have ignored our angular acceptance, and after a
-short campaign to attempt to measure the full angular acceptance with no
-or minimal energy deviation, we transitioned to measuring...
+### Angular acceptance
+
+
 
 ## Joint Acceptance
 

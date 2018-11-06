@@ -44,8 +44,7 @@
 \begin{frame}[fragile]{Capture Reactions}
 
     Primary burning processes for energy production depend on the
-    properties of the star (mass, temperature, enrichment, life cycle
-    stage, etc.)
+    properties of the star
 
     Hydrogen burning:
     \begin{itemize}
@@ -55,14 +54,16 @@
 
     Helium burning:
     \begin{itemize}
-        \item Triple-$\alpha$ process
-        \item \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
-            determines C/O ratio
-        \item primary sources of neutrons for $s$-process are
+        \item Triple-$\alpha$ process and \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
+    \end{itemize}
+    
+    Additional He reactions:
+    \begin{itemize}
+        \item main sources of neutrons for $s$-process:
             \react{\mnuc{13}{C}}{\alpha}{\rm n}{\mnuc{16}{O}} and
             \react{\mnuc{22}{Ne}}{\alpha}{\rm n}{\mnuc{25}{Mg}} (AGB
             stars)
-        \item breakout reactions from cyclic H burning (e.g.
+        \item reactions on ashes of cyclic H burning (e.g.
             \react{\mnuc{14}{N}}{\alpha}{\gamma}{\mnuc{18}{F}})
     \end{itemize}
 
@@ -79,30 +80,33 @@
 
 \begin{frame}[fragile]{Radiative Capture}
 
-    Reactions like $({\rm p}, \gamma)$ and $(\alpha,\gamma)$
+    Reactions: $({\rm p}, \gamma)$ and $(\alpha,\gamma)$ (in general, \react{A}{a}{\gamma}{B})
+    \begin{itemize}
+        \item studied by detecting $\gamma$-ray produced
+    \end{itemize}
+
+    % Reactions like \react{A}{a}{\gamma}{B} (e.g. $({\rm p}, \gamma)$, $(\alpha,\gamma)$)
 
     Detecting the $\gamma$ can be difficult due to:
     \begin{itemize}
-        \item large background count rates
-        \item low count rates
-        \item HPGe detector efficiency
+        \item large background count rates (move underground)
+        \item low count rates (measure only resonances)
+        \item limited detector efficiency
     \end{itemize}
 
-    Studied focused primarily on resonances to reduce the effect of
-    these problems
+    % Studied focused primarily on resonances to reduce the effect of
+    % these problems
 
 \end{frame}
 
 \begin{frame}[fragile]{Inverse Kinematics}
 
-    We can instead detect the heavy recoil particle
+    Perform reaction in inverse kinematics: \react{a}{A}{B}{\gamma}
+
     \begin{itemize}
-        \item perform the reaction in inverse kinematics
-            \react{a}{A}{B}{\gamma}
-        \item heavy projectile impinges on light target, heavy recoil
-            escapes the target
-        \item produced recoil leaves the target and detected by
-            high-efficiency detector
+        \item heavy projectile impinges on light target (H or He)
+        \item heavy recoil escapes the target
+        \item detect with high-efficiency detector
     \end{itemize}
 
     Incident beam also passes through the light target, so we need to
@@ -114,7 +118,7 @@
 
 \begin{frame}[fragile]{St.\ George}
 
-    \vspace{1.5em}
+    % \vspace{1.5em}
     \begin{figure}
         \includegraphics[width=0.95\textwidth]%
             {figures/stg.png}
@@ -124,45 +128,51 @@
 
 \end{frame}
 
-\begin{frame}[fragile]{Magnetic and Electric Rigidities}
+% \begin{frame}[fragile]{Magnetic and Electric Rigidities}
 
-    Elements within St.\ George are tuned for the $B\rho$ and $E\rho$ of
-    the recoil particle
-    \[
-        \begin{split}
-            B\rho = \frac{\sqrt{2mT}}{q}
-        \end{split}
-        \quad\quad
-        \begin{split}
-            E\rho = \frac{2T}{q}
-        \end{split}
-    \]
+%     Elements within St.\ George are tuned for the $B\rho$ and $E\rho$ of
+%     the recoil particle
+%     \[
+%         \begin{split}
+%             B\rho = \frac{\sqrt{2mT}}{q}
+%         \end{split}
+%         \quad\quad
+%         \begin{split}
+%             E\rho = \frac{2T}{q}
+%         \end{split}
+%     \]
 
-    Design limits: $0.1 \leq B\rho \leq 0.45$~Tm and $E\rho \leq 5.7$~MV
+%     Design limits: $0.1 \leq B\rho \leq 0.45$~Tm and $E\rho \leq 5.7$~MV
 
-\end{frame}
+% \end{frame}
 
 \begin{frame}[fragile]{Particle Selection}
 
-    We can uniquely identify particles by their mass, charge and energy:
+    Uniquely identify particles by charge, energy, mass, and momentum
+    % \[
+    %     \begin{split}
+    %         B\rho = \frac{\sqrt{2mT}}{q} = \frac{p}{q}
+    %     \end{split}
+    %     \quad\quad\quad
+    %     \begin{split}
+    %         E\rho = \frac{2T}{q}
+    %     \end{split}
+    % \]
 
-    \begin{alertblock}{Magnetic Selection}
-        % \[
-        %     \frac{m}{q} = \frac{B\rho}{2}\left(\frac{T}{q}\right)^{-1}
-        % \]
-        selects a single momentum: $p = q \cdot B\rho$
+    \begin{alertblock}{Magnetic Selection}<2->
+        \[
+            B\rho = \frac{\sqrt{2mT}}{q} = \frac{p}{q}
+        \]
     \end{alertblock}
-    \begin{alertblock}{Electric Selection}
-        % \[
-        %     \frac{T}{q} = \frac{E\rho}{2}
-        % \]
-        selects a single energy: $T = q/2 \cdot E\rho$
+    \begin{alertblock}{Electric Selection}<3->
+        \[
+            E\rho = \frac{2T}{q}
+        \]
     \end{alertblock}
-    \begin{alertblock}{Wien Filter Selection}
-        % \[
-        %     \frac{m}{q} = \frac{2}{v^2} \frac{T}{q}
-        % \]
-        selects a single velocity: $v = E/B$
+    \begin{alertblock}{Wien Filter Selection}<4->
+        \[
+            v = \frac{E\rho}{B\rho}
+        \]
     \end{alertblock}
 
     % $B\rho$ and $E\rho$ are the magnetic and electric rigidities of the
@@ -170,27 +180,38 @@
 
 \end{frame}
 
-\begin{frame}[fragile]{Particle Selection}
+% \begin{frame}[fragile]{Particle Selection}
 
-    \vspace{1em}
-    Any two of the three possibilities may be combined to uniquely
-    identify a particle
+%     \vspace{1em}
+%     Any two of the three possibilities may be combined to uniquely
+%     identify a particle
 
-    \begin{figure}
-        \includegraphics[width=0.75\textwidth]%
-            {figures/particle_selection_by_field.png}
-    \end{figure}
+%     \begin{figure}
+%         \includegraphics[width=0.75\textwidth]%
+%             {figures/particle_selection_by_field.png}
+%     \end{figure}
 
-\end{frame}
+% \end{frame}
 
 \begin{frame}[fragile]{Angular and Energy Acceptance}
 
-    Recoils can only be transported within defined parameter bounds
+    Recoils leave target with a range of momentum/energy values and angles due to kinematics of the reaction
+    \[
+        \begin{split}
+            p_{\rm recoil} = \sqrt{2m_AE_A} \pm p_{\gamma}
+        \end{split}
+        \quad\quad\quad
+        \begin{split}
+            \theta_{\rm recoil} = \atan\left(\frac{p_{\gamma}}{\sqrt{2m_AE_A}}\right)
+        \end{split}
+    \]
+
+    Recoils must be transported within defined parameter bounds
     \[
         \begin{split}
             \Delta E/E = \pm7.5\,\%
         \end{split}
-        \quad\quad
+        \quad\quad\quad
         \begin{split}
             \Delta\theta = \pm40\,\text{mrad}
         \end{split}
@@ -202,34 +223,42 @@
 
 \begin{frame}[fragile]{Importance of Acceptances}
 
-    Verifying the acceptances across a wide range of $B\rho$ and $E\rho$
-    is required in order to eliminate it as a potential source of error
-
-    Ensures that all of the produced recoils and none of the incident
-    beam particles for a given reaction reach the detector plane
+    In an experiment, all produced recoils must be transported to the detector plane
+    
+    Verifying the acceptance will:
     \begin{itemize}
-        \item produced recoils can be extremely rare (1 for every
-            $10^{15}$ beam particles)
+        \item eliminate St.\ George as a potential source of uncertainty
+        \item show the beam rejection properties are sufficient to measure the cross section
     \end{itemize}
 
-    Once acceptances have been verified for enough $B\rho$ and $E\rho$
-    possibilities, scaling the electromagnetic elements to other
-    rigidity values should retain the acceptance properties
+    % Ensures that all of the produced recoils and none of the incident
+    % beam particles for a given reaction reach the detector plane
+    % \begin{itemize}
+    %     \item produced recoils can be extremely rare (1 for every
+    %         $10^{15}$ beam particles)
+    % \end{itemize}
+
+    Once verified for enough $B\rho$ and $E\rho$
+    possibilities, separator has a single tune that is scaled to new values
 
 \end{frame}
 
 \section{Acceptance Measurements}
 
-\begin{frame}[fragile]{Types of Acceptance Measurements}
+\begin{frame}[fragile]{Types of Acceptances}
 
     The goal is for 100\,\% of the particles to make it to the
     final detector plane
+    \begin{itemize}
+        \item ``particles'' are produced recoils or incident test beam
+        \item measure with Faraday cups or particle detectors
+    \end{itemize}
 
-    Can divide measurements between three possible cases:
+    % Can divide measurements between three possible cases:
 
     \begin{alertblock}{Energy}<2->%<1-| alert@4> for highlighting
-        change the particle energy without interfering with the other
-        quantities
+        change the particle energy without interfering with other
+        properties
     \end{alertblock}
     \begin{alertblock}{Angular}<3->
         change the deflection of the particle at the target location
@@ -239,20 +268,6 @@
     \end{alertblock}
 
 \end{frame}
-
-% \begin{frame}[fragile]{Goal of Commissioning}
-
-%     For a properly-tuned separator, 100\,\% of the recoil particles will
-%     be transmitted to the final detector plane
-%     \begin{itemize}
-%         \item Can measure current at the target and detector location
-%         \item Can use a particle detector (if current low enough)
-%     \end{itemize}
-
-%     Will be true for particles within the designed angular and energy
-%     acceptance windows for a single tune of the separator
-
-% \end{frame}
 
 \begin{frame}[fragile]{Energy Acceptance}
 
@@ -275,9 +290,7 @@
 \begin{frame}[fragile]{Energy Acceptance}
 
     \vspace{0.5em}
-    Energy acceptance completed for a subset of $B\rho$ and $E\rho$
-    test particles (100\,\% transmission found through current
-    measurements)
+    Energy acceptance results in a single tune for St.\ George
 
     \begin{figure}
         \includegraphics[width=0.75\textwidth]%
@@ -315,14 +328,11 @@
     %         take too long for each point
     % \end{itemize}
 
-    Can use a degrader foil to create an angular and energy spread at
-    the same time
+    Can use a degrader foil to create an angular and energy spread at the same time
     \begin{itemize}
-        \item New central energy based on energy loss
-        \item Target material and thickness extremely important to
-            understand well
-        \item ``Fuzziness'' of beam spot may still make it difficult
-            to tune
+        \item target properties matched to test beam selection
+        \item limited by diagnostic equipment (can't use a detector due to high-intensity beam)
+        \item energy and angular distribution make it more difficult to refine the tune if we don't have 100\,\% transmission
     \end{itemize}
 
 \end{frame}
@@ -331,26 +341,31 @@
 
 \begin{frame}[fragile]{Justification for Reaction Measurements}
 
-    Joint acceptance measurements are costly to cover all of the
-    possibilities
-
-    Reactions can be used to ``bootstrap'' the process
+    Use the known kinematics of the reaction to gradual move toward a full acceptance solution
     \begin{itemize}
-        \item Reactions have a known cross section, angular and energy
-            spread, etc.
-        \item If all of the expected produced recoils reach the
-            detector, the separator is performing optimally
+        \item known cross section, angular and energy distribution, etc.
+        \item tune so that 100\,\% of the produced particles captured by detector (can check with incident beam as well)
+        \item St.\ George then has \textit{at least} the acceptance necessary for the reaction
     \end{itemize}
 
 \end{frame}
 
 \begin{frame}[fragile]{The \alpa{} Reaction}
 
-    \vspace{1.5em}
-    \begin{figure}
-        \includegraphics[width=0.65\textwidth]%
-            {figures/reaction_energy_diagram.png}
-    \end{figure}
+    % \vspace{1.5em}
+    % \begin{figure}
+    %     \includegraphics[width=0.65\textwidth]%
+    %         {figures/reaction_energy_diagram.png}
+    % \end{figure}
+    
+    Focus on two isolated resonances:
+    \begin{itemize}
+        \item high energy: $E_{\rm p} = 1.36$~MeV \textrightarrow{} $E_{\alpha} = 2.77$~MeV
+        \item low energy: $E_{\rm p} = 1.18$~MeV \textrightarrow{} $E_{\alpha} = 2.59$~MeV
+        \item both are $2+$ resonances with isotropic angular distribution
+    \end{itemize}
+    
+    For both reactions, kinematics and target effects give $\Delta E/E = 3$\,\%
 
 \end{frame}
 
@@ -371,22 +386,18 @@
 
 \begin{frame}[fragile]{Alternate Tune}
 
-    Since the last segment of St.\ George has not been fully
-    commissioned (full angular acceptance not yet verified), we can use
-    the focal plane after the Wien filter to perform cross section
-    measurements
-
-    For $({\rm p},\alpha)$ reactions, the expected beam suppression is
-    sufficient to reject the high-intensity incident beam
-
-    The beam spot at this focal plane needs to be adjusted to direct the
-    reaction products to the detector
+    Due to limits of previous work at the time, we have to move our detector system up to the Wien filter focal plane
+    \begin{itemize}
+        \item can replicate this work once angular acceptance measurements extended to last section of St.\ George
+        \item beam suppression is sufficient to reject the incident proton beam before the detector
+        \item ``canonical'' St.\ George tune cannot be used
+    \end{itemize}
 
 \end{frame}
 
 \begin{frame}[fragile]{Alternate Tune}
 
-    \vspace{1.5em}
+    \vspace{1em}
     Determined expected field strengths using \verb+COSY+ and verified
     with direct particle transport before the experiment
 
@@ -404,21 +415,31 @@
     The reaction \alpa{} emits the $\alpha$ particles within an
     isotropic angular distribution
     \begin{itemize}
-        \item target cup restricts us to $\approx 40$~mrad acceptance
-        \item we will attempt to transport all $\alpha$ particles to the detector
+        \item target cup aperture limits entrance to $\approx 40$~mrad acceptance
+        \item we will attempt to transport all $\alpha$ particles (based on the cross section) to the detector
     \end{itemize}
 
-    Tuning the beginning of the separator to transport the particles to
-    the Wien filter focal plane is an alternative to a full angular
-    acceptance measurement
-
-    Ability to fine-tune and have confidence in the properties of the
-    separator are required
+    This is an alternate to a full acceptance measurement with St.\ George (limited energy acceptance, subset of separator)
+    \begin{itemize}
+        \item built upon previous acceptance measurements
+        \item still supports ongoing work to prepare the separator for future experiments
+    \end{itemize}
 
 \end{frame}
 
 % include equation for acceptance, maybe new slide?
 % say how you verified on-resonance with direct He beam
+
+\begin{frame}[fragile]{Acceptance}
+    
+    We can relate the yield at our detector to what we expect from the cross section to determine our angular acceptance
+    
+    \[
+        \theta = \arccos\left(1 - 2\frac{Y_{\rm experiment}}{Y_{\rm theory}}\right)
+    \]
+    
+    This assumes a ``symmetric'' acceptance (constant opening angle for acceptance cone)
+\end{frame}
 
 \begin{frame}[fragile]{Acceptance Measurements}
 

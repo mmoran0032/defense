@@ -453,10 +453,14 @@
 
 % describe how you actually break everything apart
 
-\begin{frame}
+\begin{frame}[fragile]{Uncertainty Decomposition}
+
+    \vspace{1em}
     \begin{figure}
-        \includegraphics[width=0.85\textwidth]{figures/inputs.png}
+        \includegraphics[width=0.65\textwidth]%
+            {figures/inputs.png}
     \end{figure}
+    
 \end{frame}
 
 \begin{frame}[fragile]{Acceptance Uncertainty}
@@ -465,9 +469,9 @@
     underlying variables within our control: energy, current, time, and
     target thickness
     \begin{itemize}
-        \item On-resonance: dominated by current uncertainty
-        \item Below resonance: dominated by energy uncertainty
-        \item Attribution through a hybrid Monte Carlo/Bayesian
+        \item $E_{\rm res}$ and higher: dominated by current uncertainty
+        \item energies lower than $E_{\rm res}$: dominated by energy uncertainty
+        \item attribution through a hybrid Monte Carlo/Bayesian
             approach
     \end{itemize}
 

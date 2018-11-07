@@ -1,9 +1,13 @@
 # Script
 
-Last updated: 2018-11-04
+Last updated: 2018-11-05
 
 Script for my defense to make sure that I know what I'm saying and can
 practice it. I don't want to miss anything during the presentation.
+
+*Note:* the below reflects the status before the dry run with Manoel and
+Michael. There are some new slides and others removed, so the below does
+not represent the current presentation but can be used as a guide.
 
 ## Title Slide
 
@@ -15,7 +19,7 @@ work.
 ## Introduction
 
 First, I'd like to discuss the situations in which we would want to use
-this technique and the benefits of using it.
+this technique and what benefits it gives us.
 
 ### Capture Reactions
 
@@ -60,8 +64,9 @@ All of this combined means that the focus has usually been on the
 resonances in the cross section, those regions where the probability of
 the reaction taking place is greatly increased. The off-resonance
 regions can still contribute greatly to our understanding of the
-reaction, so we need a method to measure the cross section in those
-regions.
+reaction, especially in situations where no resonance contributes to
+the reaction in stellar interiors, so we need a method to measure the
+cross section in those regions.
 
 ### Inverse Kinematics
 
@@ -72,7 +77,7 @@ high efficiency detector with low background counts.
 One way we can do that is through performing the reaction in inverse
 kinematics, where instead of a light particle impinging on a heavy
 target, we direct a beam of the heavy particle onto the light target, in
-our case a hydrogen or helium gas target. The produced heavy recoil
+our case a hydrogen or helium gas target. The produced heavy recoils
 leave the target and can be detected by a high-efficiency particle
 detector, such as a Silicon strip detector.
 
@@ -98,13 +103,10 @@ Separator for Capture Gamma-ray Experiments.
 St. George is a recoil separator in the Nuclear Science Lab at the
 University of Notre Dame, designed primarily to study radiative alpha
 capture reactions performed in inverse kinematics in the low mass range.
-Its design was influenced by previous recoil separators, and the entire
-system also includes target and detector systems. It consists of eleven
-quadrupoles, six dipoles, and a Wien filter to separate out the recoils
-based on their mass. St. George can provide beam suppression up to 10^15
-and direct those few produced recoils to the detector plane with an
-angular acceptance of 40 mrad and an energy acceptance of 7.5%, and I'll
-explain all of those values shortly.
+It consists of eleven quadrupoles, six dipoles, and a Wien filter to
+separate out the recoils based on their mass, and its design was
+influenced by previously built recoil separators, such as DRAGON or ERNA
+or DRS.
 
 St. George achieves the separation of the recoils from the beam by being
 set for...
@@ -116,7 +118,9 @@ These rigidities are defined by the circular path a given particle would
 take within a uniform field of a given type, and are related to the
 particle's mass, charge, and energy. The rigidity of a particle and the
 designed bending radius of an element will determine what field strength
-is required for that particle.
+is required for that particle. St. George was designed to transport
+particles to its final detector plane within a given range of rigidity
+values.
 
 It makes more sense, however, to talk in terms of...
 
@@ -382,17 +386,26 @@ experimental areas within the NSL.
 
 ## The Future of St. George
 
-From these results, the future work to be performed with St. George is
-extremely varied and exciting. Following the final verification of the
-acceptance properties through the remainder of St. George and to the
-full design extent, or concurrent with that work, the first of the
-planned experiments for St. George can be completed, such at 14N(a,g)
-and 3He(a,g). These reactions will follow the installation and
-commissioning of the Hippo supersonic jet gas target. In the interim,
-however, St. George can be used for additional (p,a) measurements and
-potentially other solid target measurements that are important for low
-energy nuclear astrophysics across numerous domains. The work presented
-here is an essential starting point for a long and prestigious nuclear
-astrophysics campaign for St. George and the NSL.
+We've shown that St. George can be used for the (p,a) experiments in
+this configuration, and there is already growing interest to use St.
+George in this capacity to augment the work at other experiments. Our
+ability to fine tune the separator is also essential for future work,
+and the built-up knowledge of how the separator performs will continue
+to build on itself to improve future work.
 
-Thank you.
+Some of the procedures and diagnostic equipment that were developed
+during this commissioning work have already had an influence on the next
+generation of recoil separators, namely SECAR at Michigan State
+University. Since the design of SECAR was influenced by the design of
+St. George, it makes sense that the separator can also be helpful in
+this regard.
+
+Finally, the last parts of the full St. George system, namely the HIPPO
+supersonic gas target which provides the He target for (a,g) reactions
+and the full detector system, of which we only used a part of, are
+coming online. As those last systems are commissioned themselves, we
+will have unlocked the full potential of St. George for making ground
+breaking strides in nuclear astrophysics.
+
+With that, thank you for your time, and I look forward to your
+questions.

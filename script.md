@@ -11,41 +11,48 @@ not represent the current presentation but can be used as a guide.
 
 ## Title Slide
 
-Good afternoon. Today I will discuss using the technique of recoil
-separation to study reactions important for nuclear astrophysics and the
-steps taken to prepare the St. George recoil separator for experimental
-work.
+Good afternoon.
+
+My name is Michael Moran.
+
+I want to thank you for coming to my doctoral defense.
+
+Today I will be giving a brief presentation about my work with the St.
+George recoil mass separator.
+
+There will be time at the end of the presentation for any questions you
+may have.
 
 ## Introduction
 
-First, I'd like to discuss the situations in which we would want to use
-this technique and what benefits it gives us.
+First, I'd like to discuss in what situations we would want to use the
+technique of recoil mass separation to study reactions for nuclear
+astrophysics, and what benefits it gives us over other techniques.
 
 ### Capture Reactions
 
 In the primary burning processes that govern the energy production in
-stars, different capture reactions are common. The actual reactions that
-take place depend on the properties of the star, such as the temperature
-and pressure of the stellar interior, the isotopic enrichment of the
-burning site, the mass of the star, and the particular stage of its
-lifecycle that the star is in.
+stars, different capture reactions are common.
+
+The actual reactions that take place depend on the properties of the
+star, such as the temperature and pressure of the stellar interior, the
+isotopic enrichment of the burning site, the mass of the star, and the
+particular stage of its lifecycle that the star is in.
 
 For stars similar to our sun, the primary energy source is Hydrogen
 burning, which has the net effect of converting four protons into one
-Helium nucleus. For our sun, the pp chains dominate this energy
-production. For more massive stars, this burning is accomplished through
-cyclic burning cycles, such as the CNO, NeNa, and Magnesium-Aluminum
-cycles, where the heavy isotopes act as catalytic material for the
-burning process.
+Helium nucleus.
 
-Additionally, Helium burning reactions play a role in a variety of
-nuclear astrophysics processes. For example, the Carbon-to-Oxygen ratio
-and the primary reaction that determines it, C12(a,g), is a
-long-standing goal of nuclear astrophysics. The primary source of
-netrons for the s-process are these two (a,n) reactions, which are
-activated during the Helium burning stages in Asymptotic Giant Brancg
-stars. Finally, alpha capture can also provide a "breakout" from burning
-cycles such as the CNO cycle.
+For our sun, the pp chains dominate this energy production.
+
+For more massive stars, this burning is accomplished through cyclic
+burning cycles, such as the CNO, NeNa, and Magnesium-Aluminum cycles,
+where the heavy isotopes act as catalytic material for the burning
+process.
+
+Once the Hydrogen fuel is exhausted, Helium burning takes over.
+
+
 
 Many of these reactions are...
 

@@ -27,7 +27,7 @@
 % \date{\today}
 \date{November 9, 2018}
 \author{Michael T Moran}
-\institute{University of Notre Dame}
+\institute{Doctoral Defense\\University of Notre Dame}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
 \begin{document}
@@ -54,7 +54,11 @@
 
     Helium burning:
     \begin{itemize}
-        \item Triple-$\alpha$ process and \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
+        \item \react{\mnuc{4}{He}}{\alpha\alpha}{\gamma}{
+            \react{\mnuc{12}{C}}{\alpha}{\gamma}{
+            \react{\mnuc{16}{O}}{\alpha}{\gamma}{
+            \react{\mnuc{20}{Ne}}{\alpha}{\gamma}{\mnuc{24}{Mg}}}}}
+        % \item Triple-$\alpha$ process and \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
     \end{itemize}
 
     Additional He reactions:
@@ -431,7 +435,7 @@
         \includegraphics[width=0.65\textwidth]%
             {figures/inputs.png}
     \end{figure}
-    
+
 \end{frame}
 
 \section{Future Directions}
@@ -487,6 +491,10 @@
         \includegraphics[width=0.95\textwidth]%
             {figures/cno_nena_mgal.png}
     \end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Stellar Lifecyles}
+    Include figure from pg. 14 Iliadis
 \end{frame}
 
 \begin{frame}[fragile]{Magnetic and Electric Rigidities}

@@ -422,7 +422,7 @@
     This is an alternate to a full acceptance measurement with St.\ George (limited energy acceptance, subset of separator)
     \begin{itemize}
         \item built upon previous acceptance measurements
-        \item still supports ongoing work to prepare the separator for future experiments
+        \item direct He beam used to verify acceptance before experiment at resonance energies
     \end{itemize}
 
 \end{frame}
@@ -451,6 +451,25 @@
 
 \end{frame}
 
+\begin{frame}[fragile]{Acceptance Uncertainty}
+
+    We can attribute the uncertainty at each measurement to the
+    underlying variables within our control: energy, current, time, and
+    target thickness
+    \begin{itemize}
+        \item $E_{\rm res}$ and higher: dominated by current uncertainty
+        \item energies lower than $E_{\rm res}$: dominated by energy uncertainty
+        \item final irreducible uncertainty (cross section, counting statistics, etc.) cannot be avoided
+        % \item attribution through a hybrid Monte Carlo/Bayesian approach
+    \end{itemize}
+
+    Attribution is done through a hybrid Monte Carlo/Bayesian approach, where we adjust our priors and observe the change in the outcome
+
+    % Final irreducible uncertainty cannot be avoided, but controllable
+    % uncertainty can be minimized
+
+\end{frame}
+
 % describe how you actually break everything apart
 
 \begin{frame}[fragile]{Uncertainty Decomposition}
@@ -461,23 +480,6 @@
             {figures/inputs.png}
     \end{figure}
     
-\end{frame}
-
-\begin{frame}[fragile]{Acceptance Uncertainty}
-
-    We can attribute the uncertainty at each measurement to the
-    underlying variables within our control: energy, current, time, and
-    target thickness
-    \begin{itemize}
-        \item $E_{\rm res}$ and higher: dominated by current uncertainty
-        \item energies lower than $E_{\rm res}$: dominated by energy uncertainty
-        \item attribution through a hybrid Monte Carlo/Bayesian
-            approach
-    \end{itemize}
-
-    Final irreducible uncertainty cannot be avoided, but controllable
-    uncertainty can be minimized
-
 \end{frame}
 
 % \begin{frame}[fragile]{Acceptance Measurements}

@@ -55,9 +55,9 @@
     Helium burning:
     \begin{itemize}
         \item \react{\mnuc{4}{He}}{\alpha\alpha}{\gamma}{
-            \react{\mnuc{12}{C}}{\alpha}{\gamma}{
-            \react{\mnuc{16}{O}}{\alpha}{\gamma}{
-            \react{\mnuc{20}{Ne}}{\alpha}{\gamma}{\mnuc{24}{Mg}}}}}
+            \mreact{\mnuc{12}{C}}{\alpha}{\gamma}{
+            \mreact{\mnuc{16}{O}}{\alpha}{\gamma}{
+            \mreact{\mnuc{20}{Ne}}{\alpha}{\gamma}{\mnuc{24}{Mg}}}}}
         % \item Triple-$\alpha$ process and \react{\mnuc{12}{C}}{\alpha}{\gamma}{\mnuc{16}{O}}
     \end{itemize}
 
@@ -342,6 +342,17 @@
 
 \end{frame}
 
+\begin{frame}[fragile]{Angular Acceptance Measurement}
+
+    The reaction \alpa{} emits the $\alpha$ particles within an
+    isotropic angular distribution
+    \begin{itemize}
+        \item target cup aperture limits entrance to $\approx 40$~mrad acceptance
+        \item we will attempt to transport all $\alpha$ particles (based on the cross section) to the detector
+    \end{itemize}
+
+\end{frame}
+
 \begin{frame}[fragile]{Alternate Tune}
 
     Due to limits of previous work at the time, we have to move our detector system up to the Wien filter focal plane
@@ -349,6 +360,12 @@
         \item can replicate this work once angular acceptance measurements extended to last section of St.\ George
         \item beam suppression is sufficient to reject the incident proton beam before the detector
         \item ``canonical'' St.\ George tune cannot be used
+    \end{itemize}
+    
+    This is an alternate to a full acceptance measurement with St.\ George (limited energy acceptance, subset of separator)
+    \begin{itemize}
+        \item built upon previous acceptance measurements
+        \item direct He beam used to verify acceptance before experiment at resonance energies
     \end{itemize}
 
 \end{frame}
@@ -365,23 +382,6 @@
         \includegraphics[width=0.75\textwidth]%
             {figures/optimal_tune_y.png}<2>
     \end{figure}
-
-\end{frame}
-
-\begin{frame}[fragile]{Angular Acceptance Measurement}
-
-    The reaction \alpa{} emits the $\alpha$ particles within an
-    isotropic angular distribution
-    \begin{itemize}
-        \item target cup aperture limits entrance to $\approx 40$~mrad acceptance
-        \item we will attempt to transport all $\alpha$ particles (based on the cross section) to the detector
-    \end{itemize}
-
-    This is an alternate to a full acceptance measurement with St.\ George (limited energy acceptance, subset of separator)
-    \begin{itemize}
-        \item built upon previous acceptance measurements
-        \item direct He beam used to verify acceptance before experiment at resonance energies
-    \end{itemize}
 
 \end{frame}
 

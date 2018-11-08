@@ -27,7 +27,7 @@ may have.
 
 First, I'd like to discuss in what situations we would want to use the
 technique of recoil mass separation to study reactions for nuclear
-astrophysics, and what benefits it gives us over other techniques.
+astrophysics, and what benefits it gives us over other options.
 
 ### Capture Reactions
 
